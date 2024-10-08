@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: install xmltv
         run: |
-          source ./scripts/multi.sh
+          source ./multi.sh
           install_xmltv
       - name: Run grabber
         run: |
@@ -47,9 +47,9 @@ jobs:
           merge-multiple: true
       - name: Merge
         run: |
-          source ./scripts/multi.sh
+          source ./multi.sh
           install_xmltv
-          ./scripts/merge.sh
+          ./merge.sh
           clr
       - name: Pack
         run: |
