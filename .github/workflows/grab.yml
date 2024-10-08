@@ -8,6 +8,8 @@ on:
     # 3:02 everyday
     - cron: "2 1 * * *"
 
+permissions: write-all
+
 jobs:
   grab:
     timeout-minutes: 300
