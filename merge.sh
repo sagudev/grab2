@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #v2
-for filename in grab/grab_*.xml
+for filename in grab_*.xml
 do
   # Move firs one
   if [[ "$filename" == *"grab_0.xml"* ]]; then
